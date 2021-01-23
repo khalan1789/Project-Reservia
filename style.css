@@ -1,0 +1,51 @@
+@font-face: 'Raleway', sans-serif;
+
+
+body 
+{
+    font-family: "Raleway";
+}
+
+#hébergements, #populaires, footer
+{
+    background-color: #f2f2f2;
+}
+
+section h1, footer h1
+{
+    font-weight:bold;
+}
+
+footer a, nav a
+{
+    text-decoration: none;
+}
+
+nav ul
+{
+    list-style-type: none;
+    
+}
+
+#logo img
+{
+    width: 100px;
+        
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li
+{
+    margin-left: 30px;
+}
+
