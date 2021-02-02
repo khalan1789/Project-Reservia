@@ -1,4 +1,4 @@
-@font-face: 'Raleway', sans-serif;
+@font-face:'Raleway', sans-serif;
 
 
 body 
@@ -33,6 +33,11 @@ nav ul
         
 }
 
+nav h1, section h1
+{
+    font-size:1.5em;
+}
+
 header
 {
     display: flex;
@@ -49,3 +54,21 @@ nav ul li
     margin-left: 30px;
 }
 
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#a_propos, #nos_hébergements, #assistance
+{
+    margin-top: 0px;
+    
+}
+
+#la_cannebière
+{
+    background-image:url(images/hebergements/4_small/aubergelacannebiere.jpg);
+}
