@@ -1,0 +1,163 @@
+@font-face: 'Raleway', sans-serif;
+
+body {
+  font-family: "Raleway";
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/**Partie populaires et hébergements**/
+#populaires,
+footer {
+  background-color: #f2f2f2;
+}
+
+#populaires a,
+#hébergements .lien,
+#activités a {
+  box-shadow: 0px 2px 15px 5px #e3e3e3;
+  border-radius: 16px;
+}
+
+/**section populaires**/
+
+#populaires {
+  padding: 20px 25px;
+
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#populaires h1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#populaires a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  height: 144px;
+  width: 100%;
+  max-width: 344px;
+}
+
+#populaires a img {
+  width: 127px;
+  height: 133px;
+  margin: 5px;
+  border-radius: 16px 0 0 16px;
+}
+.legend {
+  height: 133px;
+  margin-left: 15px;
+  margin-right: 30px;
+  position: relative;
+}
+.legend h1 {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+.legend p {
+  font-size: 0.83em;
+}
+.legend span {
+  position: absolute;
+  bottom: 5px;
+}
+span .fas {
+  color: #0065fc;
+}
+
+span .grey {
+  color: #f2f2f2;
+}
+
+/**section hébergements**/
+#hébergements {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#hébergements .title {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#hébergements .lien {
+  width: 335px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 5px;
+}
+
+#hébergements a img {
+  height: 114px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+#hébergements h1 {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+#hébergements p {
+  font-size: 0.83em;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.plus {
+  font-size: 0.8em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.lien h1,
+.lien p,
+.lien span {
+  padding-left: 10px;
+}
+/**activités**/
+#activités {
+  padding: 20px 30px;
+}
+#activités .title {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#activités a {
+  width: 335px;
+  height: 190px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#activités figure {
+  margin: 0;
+  width: 100%;
+}
+#activités img {
+  height: 134px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+figcaption {
+  font-weight: bold;
+}
