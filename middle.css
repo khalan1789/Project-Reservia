@@ -30,7 +30,6 @@ footer {
   height: 580px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
 }
 #populaires h1 {
@@ -83,10 +82,6 @@ span .grey {
 /**section hébergements**/
 #hébergements {
   padding: 20px 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
 }
 
 #hébergements .title {
@@ -123,7 +118,7 @@ span .grey {
 }
 .plus {
   font-size: 0.8em;
-  margin-top: 30px;
+  margin-top: 35px;
   margin-bottom: 30px;
 }
 .lien h1,
@@ -133,7 +128,7 @@ span .grey {
 }
 /**activités**/
 #activités {
-  padding: 20px 30px;
+  padding-left: 20px;
 }
 #activités .title {
   font-size: 1.5em;
@@ -144,8 +139,8 @@ span .grey {
   width: 335px;
   height: 190px;
   display: block;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 #activités figure {
   margin: 0;
@@ -160,4 +155,6 @@ span .grey {
 
 figcaption {
   font-weight: bold;
+  margin-top: 15px;
+  margin-left: 15px;
 }
