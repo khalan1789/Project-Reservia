@@ -1,4 +1,6 @@
-@font-face: 'Raleway', sans-serif;
+@font-face {
+  font-family: "Raleway", sans-serif;
+}
 
 body {
   font-family: "Raleway";
@@ -378,6 +380,14 @@ figcaption {
 
 #activités .column a {
   width: 100%;
+}
+
+/**footer**/
+footer {
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 /**à partir de 460px**/
 @media all and (min-width: 460px) {
