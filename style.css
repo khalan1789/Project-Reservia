@@ -137,7 +137,9 @@ button {
   position: absolute;
   right: 0;
 }
-
+button:focus {
+  outline: none;
+}
 .research span {
   display: none;
 }
