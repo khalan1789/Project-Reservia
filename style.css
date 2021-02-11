@@ -388,6 +388,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 5%;
+}
+
+footer h3 {
+  font-weight: 900;
+  margin-bottom: 25px;
 }
 /**à partir de 460px**/
 @media all and (min-width: 460px) {
@@ -512,6 +518,21 @@ footer {
     height: 45%;
     margin: 0;
   }
+  /**footer**/
+  footer {
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer div:nth-child(1) {
+    width: 36%;
+  }
+  footer div:nth-child(2) {
+    width: 31%;
+  }
+  footer div:nth-child(3) {
+    width: 22%;
+  }
 }
 /**media queries à partir de 782**/
 @media screen and (min-width: 782px) {
@@ -571,7 +592,7 @@ footer {
     width: 130px;
   }
 }
-
+/**media à partir de 930px**/
 @media all and (min-width: 930px) {
   /**partie header**/
   header {
@@ -579,7 +600,7 @@ footer {
   }
 
   #logo {
-    width: 65%;
+    width: calc(90% - 420px);
   }
 
   /** zone filtres**/
@@ -633,8 +654,7 @@ footer {
   }
   #populaires a img {
     width: 45%;
-    height: 100%;
-
+    height: 95%;
     border-radius: 16px 0 0 16px;
   }
 
@@ -658,7 +678,7 @@ footer {
   #activités {
     height: 565px;
     order: 3;
-    padding: 0 20px;
+    padding: 0 20px 30px 20px;
   }
   #activités .title {
     width: 100%;
@@ -686,6 +706,17 @@ footer {
   }
   #activités .column2 a {
     height: 47%;
+  }
+  /**footer**/
+  footer {
+    height: 160px;
+    padding: 30px 20px;
+  }
+  footer div {
+    width: 33%;
+  }
+  footer:nth-child(3) {
+    width: 30%;
   }
 }
 @media all and (min-width: 980px) {
@@ -746,6 +777,10 @@ footer {
     margin-bottom: 0;
   }
   #activités {
-    padding: 0 38px;
+    padding: 0 38px 50px 38px;
+  }
+  /**footer**/
+  footer {
+    padding: 30px 50px;
   }
 }
