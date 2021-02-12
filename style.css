@@ -100,8 +100,6 @@ nav {
 .logo_gps {
   width: 50px;
   height: 48px;
-  background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
   border-radius: 16px 0 0 16px;
   position: absolute;
   display: flex;
@@ -139,7 +137,9 @@ button {
   position: absolute;
   right: 0;
 }
-
+button:focus {
+  outline: none;
+}
 .research span {
   display: none;
 }
@@ -417,7 +417,7 @@ footer h3 {
   }
 }
 /**media queries à partir de 520px**/
-@media screen and (min-width: 520px) {
+@media all and (min-width: 520px) {
   /**partie header**/
   form input {
     width: 250px;
@@ -535,7 +535,7 @@ footer h3 {
   }
 }
 /**media queries à partir de 782**/
-@media screen and (min-width: 782px) {
+@media all and (min-width: 782px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -554,7 +554,6 @@ footer h3 {
   }
 
   .element {
-    border-color: none;
     border: none;
   }
 
