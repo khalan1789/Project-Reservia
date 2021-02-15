@@ -462,6 +462,10 @@ footer h3 {
   #populaires a:nth-child(4) {
     margin-right: 50%;
   }
+  #populaires .tarif {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
 
   #hébergements {
     flex-flow: row wrap;
@@ -669,10 +673,7 @@ footer h3 {
   #populaires .title {
     margin-bottom: 0;
   }
-  #populaires .tarif {
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
+
   /** activités**/
   #activités {
     height: 565px;
